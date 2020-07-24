@@ -1,0 +1,122 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ @font-face {
+     font-family: 'pixel';
+     src: url('../fonts/Pixel.ttf')
+ }
+ 
+ [flappy] {
+     position: relative;
+     width: 1200px;
+     height: 700px;
+     border: solid 2px white;
+     margin: 15px;
+     background-color: deepskyblue;
+     overflow: hidden;
+ }
+ sub {
+   font-size: 20px;
+   color: #71801e;
+}
+ .passaro {
+     position: absolute;
+     width: 60px;
+     right: calc(50% - 30px);
+ }
+ 
+ .barreiras {
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     top: 0;
+     height: 100%;
+     justify-content: space-between;
+ }
+ 
+ .barreira {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .barreira .borda {
+     height: 30px;
+     width: 130px;
+     background: linear-gradient(#639301, #A5E82E);
+     border: solid 2px black;
+ }
+ 
+ .barreira .cano {
+     height: 150px;
+     width: 110px;
+     background: linear-gradient(#639301, #A5E82E);
+     border-left: solid 2px black;
+     border-right: solid 2px black;
+ }
+ 
+ .progresso {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     font-family: 'Pixel';
+     font-size: 70px;
+     z-index: 100;
+ }
+
+ .desc {
+     margin: 30px;
+ }
+
+ footer {
+     background-color: #222020;
+     width: 100%;
+     height: 80px;
+     border-top: solid 1px gray;
+     padding: 15px;
+
+ }
+
+
+
+ .bmc-button img {
+    height: 34px;
+    width: 35px;
+    margin-bottom: 1px;
+    box-shadow: none;
+    border: none;
+    vertical-align: middle;
+}
+
+.bmc-button {
+    padding: 7px 15px 7px 10px;
+    line-height: 35px;
+    height: 51px;
+    text-decoration: none;
+    display: inline-flex;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 7px 15px 7px 10px;
+    font-size: 20px;
+    letter-spacing: -0.08px;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5);
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+}
+
+.bmc-button:hover,
+.bmc-button:active,
+.bmc-button:focus {
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+    text-decoration: none;
+    box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+    opacity: 0.85;
+    color: #ffffff;
+}
