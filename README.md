@@ -3,4 +3,4 @@
 
 ## Descrição ##
 
-    Projeto criado ultilizando conceitos básicos de HTML, CSS e JS.
+    Projeto criado utilizando conceitos básicos de HTML, CSS e JS.
