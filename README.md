@@ -4,3 +4,6 @@
 ## Descrição ##
 
     Projeto criado utilizando conceitos básicos de HTML, CSS e JS.
+
+## Link ##
+https://blindbird.netlify.app/
